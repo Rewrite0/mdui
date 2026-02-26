@@ -107,7 +107,7 @@ export class NavigationDrawer extends LayoutItemBase<NavigationDrawerEventMap> {
     | /*右侧*/ 'right' = 'left';
 
   /**
-   * 默认情况下，抽屉栏相对于 `body` 元素显示。当该参数设置为 `true` 时，抽屉栏将相对于其父元素显示。
+   * 默认情况下，抽屉栏相对于 `body` 元素显示。当该属性设置为 `true` 时，抽屉栏将相对于其父元素显示。
    *
    * **Note**：设置该属性时，必须在父元素上手动设置样式 `position: relative; overflow: hidden;`。
    */
